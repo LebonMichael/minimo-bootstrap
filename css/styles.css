@@ -1,0 +1,87 @@
+/* CSS VAN DE WEBSITE */
+/* ALGEMENE CSS VOOR DE PAGINA */
+@font-face {
+    font-family: playfairdisplay-regular;
+    src: url('../webfonts/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: Inconsolata;
+    src: url("../webfonts/Inconsolata-Regular.ttf");
+}
+@font-face {
+    font-family: Ubuntu-light;
+    src: url("../webfonts/Ubuntu-light.ttf");
+}
+.uppercase{
+    text-transform: uppercase;
+}
+body{
+    font-family: playfairdisplay-regular;
+}
+/* header */
+#brand{
+    font-family: Inconsolata;
+
+}
+#navbarNav ul{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+/* main */
+#mainstart{
+    padding-top: 4.85rem;
+}
+h2{
+    font-family: Ubuntu-light;
+    font-size: 0.9rem;
+    color: rgba(180,173,158,1);
+    padding-bottom: 1.4rem;
+    padding-top: 1.4rem;
+    text-transform: uppercase;
+}
+h3{
+    font-family: playfairdisplay-regular;
+    font-size: 1.9rem;
+    color:rgba(98,98,98,1) ;
+    padding-bottom: 1.4rem;
+}
+#comment{
+    padding-bottom: 8.44rem;
+}
+.card{
+    border: 0;
+    margin-bottom: 8.44rem;
+}
+#signUp{
+    background: #f0f0f0;
+}
+#mail{
+    border-bottom: 1px solid black;
+}
+#mail input[type=email]{
+    color:#fff;
+}
+#mail input[type=email]::placeholder {
+    color: #626262;
+}
+#exampleInputEmail1{
+    border: 0 ;
+}
+.pb-6{
+    padding-bottom: 75px;
+}
+.mb-6{
+    margin-bottom: 75px;
+}
+.mb-7{
+    margin-bottom: 100px;
+}
+.my-7{
+    margin: 100px 0;
+}
+#loadmore{
+
+}
+footer{
+    background: #f0f0f0;
+}
